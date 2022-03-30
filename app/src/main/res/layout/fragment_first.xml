@@ -37,7 +37,7 @@
             android:id="@+id/textInputTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Input Nama" />
+            android:hint="Input Name" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
