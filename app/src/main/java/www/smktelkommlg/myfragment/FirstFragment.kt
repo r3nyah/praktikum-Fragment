@@ -28,6 +28,7 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View,savedInstanceState: Bundle?){
         super.onViewCreated(view, savedInstanceState)
         val nameEditText = view.findViewById<TextInputEditText>(R.id.textInputTextName)
+        val nameEditEmail = view.findViewById<TextInputEditText>(R.id.textInputTextEmail)
         nameEditText.addTextChangedListener(
             object : TextWatcher{
                 override fun beforeTextChanged(
@@ -45,6 +46,24 @@ class FirstFragment : Fragment() {
                 }
             }
         )
+        nameEditEmail.addTextChangedListener(
+            object : TextWatcher{
+                override fun beforeTextChanged(
+                    charSequence: CharSequence, i:Int,i1:Int,i2:Int){
+
+                }
+
+                override fun onTextChanged(
+                    charSequence: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                    communicationViewModel!!.setEmail(charSequence.toString())
+                }
+
+                override fun afterTextChanged(editTable:Editable?) {
+
+                }
+            }
+        )
+
     }
     companion object{
         fun newInstance(): FirstFragment{
