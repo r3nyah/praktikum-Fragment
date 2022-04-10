@@ -14,6 +14,8 @@ class SecondFragment : Fragment() {
     private var communicationViewModel : CommunicationViewModel?=null
     private var txtName: TextView?=null
     private var txtEmail: TextView?=null
+    private var txtKelas: TextView?=null
+    private var txtHobi: TextView?=null
 
 
     override fun onCreate(savedInstanceState : Bundle?){
@@ -36,6 +38,14 @@ class SecondFragment : Fragment() {
         txtEmail = view.findViewById(R.id.textViewName2)
         communicationViewModel!!.email.observe(requireActivity(), Observer {
                 s -> txtEmail!!.text = s
+        })
+        txtKelas = view.findViewById(R.id.textViewName3)
+        communicationViewModel!!.kelas.observe(requireActivity(), Observer {
+                s -> txtKelas!!.text = s
+        })
+        txtHobi = view.findViewById(R.id.textViewName4)
+        communicationViewModel!!.hobi.observe(requireActivity(), Observer {
+                s -> txtHobi!!.text = s
         })
 
     }

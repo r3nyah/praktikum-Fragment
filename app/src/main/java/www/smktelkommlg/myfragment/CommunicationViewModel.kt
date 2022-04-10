@@ -24,6 +24,24 @@ class CommunicationViewModel : ViewModel() {
 
 
     }
+    private val mKelas = MutableLiveData<String>()
+    val kelas: LiveData<String>
+        get() = mKelas
+
+    fun setKelas(kelas:String) {
+        mKelas.value = kelas
+
+
+    }
+    private val mHobi = MutableLiveData<String>()
+    val hobi: LiveData<String>
+        get() = mHobi
+
+    fun setHobi(hobi:String) {
+        mHobi.value = hobi
+
+
+    }
 
 }
 

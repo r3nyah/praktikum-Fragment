@@ -29,6 +29,8 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val nameEditText = view.findViewById<TextInputEditText>(R.id.textInputTextName)
         val nameEditEmail = view.findViewById<TextInputEditText>(R.id.textInputTextEmail)
+        val nameEditKelas = view.findViewById<TextInputEditText>(R.id.textInputKelas)
+        val nameEditHobi = view.findViewById<TextInputEditText>(R.id.textInputHobi)
         nameEditText.addTextChangedListener(
             object : TextWatcher{
                 override fun beforeTextChanged(
@@ -56,6 +58,40 @@ class FirstFragment : Fragment() {
                 override fun onTextChanged(
                     charSequence: CharSequence?, p1: Int, p2: Int, p3: Int) {
                     communicationViewModel!!.setEmail(charSequence.toString())
+                }
+
+                override fun afterTextChanged(editTable:Editable?) {
+
+                }
+            }
+        )
+        nameEditKelas.addTextChangedListener(
+            object : TextWatcher{
+                override fun beforeTextChanged(
+                    charSequence: CharSequence, i:Int,i1:Int,i2:Int){
+
+                }
+
+                override fun onTextChanged(
+                    charSequence: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                    communicationViewModel!!.setKelas(charSequence.toString())
+                }
+
+                override fun afterTextChanged(editTable:Editable?) {
+
+                }
+            }
+        )
+        nameEditHobi.addTextChangedListener(
+            object : TextWatcher{
+                override fun beforeTextChanged(
+                    charSequence: CharSequence, i:Int,i1:Int,i2:Int){
+
+                }
+
+                override fun onTextChanged(
+                    charSequence: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                    communicationViewModel!!.setHobi(charSequence.toString())
                 }
 
                 override fun afterTextChanged(editTable:Editable?) {
