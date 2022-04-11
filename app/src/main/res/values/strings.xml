@@ -4,4 +4,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tab_text_1">Input</string>
     <string name="tab_text_2">Result</string>
+
+    <string name="text_intro1">A</string>
+    <string name="text_intro2">B</string>
+    <string name="text_intro3">C</string>
+    <string name="desc_intro1">First</string>
+    <string name="desc_intro2">Second</string>
+    <string name="desc_intro3">Third</string>
 </resources>
