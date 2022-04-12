@@ -74,4 +74,8 @@ class IntroSliderActivity : AppCompatActivity() {
             }
         }
     }
+    override fun onBackPressed(){
+        finishAffinity()
+
+    }
 }

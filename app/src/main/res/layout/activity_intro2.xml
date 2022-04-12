@@ -24,14 +24,6 @@
         android:textStyle="bold"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/desc_intro2"
-        android:textColor="@color/darkgray"
-        android:textSize="16sp"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        />
+
 
 </LinearLayout>
