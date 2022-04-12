@@ -5,9 +5,9 @@
     <string name="tab_text_1">Input</string>
     <string name="tab_text_2">Result</string>
 
-    <string name="text_intro1">A</string>
-    <string name="text_intro2">B</string>
-    <string name="text_intro3">C</string>
+    <string name="text_intro1">The easiest way to make biodata from your phone.</string>
+    <string name="text_intro2">Do it anywhere n anytime.</string>
+    <string name="text_intro3">Browse the destination from your phone.</string>
     <string name="desc_intro1">First</string>
     <string name="desc_intro2">Second</string>
     <string name="desc_intro3">Third</string>

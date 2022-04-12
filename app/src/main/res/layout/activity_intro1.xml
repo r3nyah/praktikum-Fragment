@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_partner"
+        android:src="@drawable/user_money_foreground"
         />
 
     <TextView
@@ -22,16 +22,6 @@
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/desc_intro1"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
         />
 
 </LinearLayout>
