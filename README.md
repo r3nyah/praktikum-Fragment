@@ -17,7 +17,7 @@ Android Fragment adalah bagian yang dapat digunakan kembali dari antarmuka pengg
 # Screenshot
 <details>
   <summary>.gif</summary>
-  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/1.jpg?raw=true">
+  On progress.......xd
 </details>
 <details>
   <summary>Splash Screen</summary>
