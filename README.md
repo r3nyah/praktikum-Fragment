@@ -15,7 +15,10 @@ Viewmodel adalah pola arsitektur perangkat lunak yang memfasilitasi pemisahan pe
 Android Fragment adalah bagian yang dapat digunakan kembali dari antarmuka pengguna android activity yang digunakan untuk membuat UI yang dinamis dan fleksibel.
 
 # Screenshot
-[Coming soon!]
+<details>
+  <summary>.gif</summary>
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/1.jpg?raw=true">
+</details>
 <details>
   <summary>Splash Screen</summary>
   <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/1.jpg?raw=true">
