@@ -16,3 +16,20 @@ Android Fragment adalah bagian yang dapat digunakan kembali dari antarmuka pengg
 
 # Screenshot
 [Coming soon!]
+<details>
+  <summary>Splash Screen</summary>
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/1.jpg?raw=true">
+</details>
+
+<details>
+  <summary>View Model</summary>
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/2.jpg?raw=true">
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/3.jpg?raw=true">
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/4.jpg?raw=true">
+</details>
+
+<details>
+  <summary>Fragment</summary>
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/5.jpg?raw=true">
+  <img src="https://github.com/r3nyah/praktikum-FragmentBiodata/blob/master/Assets/6.jpg?raw=true">
+</details>
